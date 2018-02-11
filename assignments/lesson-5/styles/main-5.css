@@ -4,41 +4,126 @@
 
 body {
     font-size: 16px;
-    /* Declare the base font-family - from google font api or other */
+    font-family: Georgia, serif;
     max-width:75%;
     margin: auto;
 }
 
 header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
     /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    width: 100%;
+    margin: auto;
 }
 
-header {}
-header h1 {}
-header img {}
-header .subheading {}
+header {
+    background-color: #8e99a2; 
+    padding: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
 
-nav {}
+header h1 {
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color: #ffffff;
+    font-style: normal;
+}
+
+header img {
+    float: left;
+    margin-top: -2%;
+    margin-left: 10%  
+}
+
+header .subheading {
+    font-family: 'Arial', Gadget, sans-serif;
+    font-style: italic;
+    color: #ffffff;
+}
+
+nav {
+    display: none;
+}
+
 nav button {}
-nav ul {}
-nav ul li {}
-nav ul li a {}
-nav ul li.active a {}
-nav ul li a:hover {}
+nav ul {
+    
+}
+nav ul li {
+    background-color: #8e99a2;
+    list-style-type: none;
+    float: left;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+     
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffe168;
+}
+nav ul li.active a {
+    color: #ffffff;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    font-style: italic;
+}
 
 main {}
-main h2 {}
-main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { width: 100%; }
+main h2 {
+    font-family: 'Arial', Gadget, sans-serif;
+    color: #8e99a2;
+    text-align: center;
+}
+main figure { 
+    margin: 0 0 .2rem 2%; 
+    width:96%; 
+} 
 
-section {}
+main figure img { 
 
-article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-    width: ???; /* fill the page in the small/phone view */
-    margin: ???;
 }
 
-footer {}
+.current img {
+    float: right;
+    margin-top: -15%;
+}
+
+.forecast h3{
+    display: none;
+}
+.forecast table{
+    display: none;
+}
+table {
+    border: 2px solid #8e99a2;
+    padding: 1%;
+    background-color: #d9d9d9;
+}
+
+th {
+    background-color: #8e99a2;
+    padding: 7px;
+    color: #ffffff;
+}
+
+tr {
+    text-align: center;
+}
+
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    width: 100%; /* fill the page in the small/phone view */
+    margin: 1%;
+}
+
+footer {
+    background-color: #8e99a2;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #ffffff;
+}
 footer aside {}
 footer>p {} /* This structure refers to p elements that are direct children of the footer element */
 

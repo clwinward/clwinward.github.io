@@ -44,6 +44,7 @@ header .subheading {
 nav {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
+    background-color: #8e99a2;
 }
 
 nav button {
@@ -57,7 +58,6 @@ nav ul {
     padding: 0;
 }
 nav ul li {
-    background-color: #8e99a2;
     list-style-type: none;
     display: block;
     padding: .8rem 2%;

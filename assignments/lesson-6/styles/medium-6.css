@@ -3,9 +3,9 @@
 
     nav button { display:none; }  /* hamburger button does not need to be shown */
 
-    nav { max-width: 1023px; margin: auto; text-align: center; }
+    nav ul{ padding: 0px; margin: 0px; text-align: center; }
 
-    nav ul li {display: inline; border-top: none; padding: 1%;}/*creates horizontal menu*/
+    nav ul li {display: inline; border-top: none; }/*creates horizontal menu*/
 
     section.forecast { display: block; }  /* show the 10-day forecast with the medium view and up */
 

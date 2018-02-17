@@ -16,7 +16,7 @@ header, nav, main, footer { /* the comma means apply the following CSS declarati
 }
 
 header {
-    background-color: #8e99a2; 
+    background-color: #8e99a2;
     padding: 20px;
     margin-top: 30px;
     text-align: left;
@@ -31,7 +31,7 @@ header h1 {
 header img {
     float: left;
     margin-top: -2%;
-    margin-left: 10%  
+    margin-left: 10%
 }
 
 header .subheading {
@@ -46,7 +46,7 @@ nav {
 
 nav button {}
 nav ul {
-    
+
 }
 nav ul li {
     background-color: #8e99a2;
@@ -55,8 +55,8 @@ nav ul li {
     padding-right: 5%;
     padding-top: 1%;
     padding-bottom: 1%;
-     
-    
+
+
 }
 nav ul li a {
     text-decoration: none;
@@ -76,12 +76,12 @@ main h2 {
     color: #8e99a2;
     text-align: center;
 }
-main figure { 
-    margin: 0 0 .2rem 2%; 
-    width:96%; 
-} 
+main figure {
+    margin: 0 0 .2rem 2%;
+    width:96%;
+}
 
-main figure img { 
+main figure img {
 
 }
 

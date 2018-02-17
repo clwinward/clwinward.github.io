@@ -3,6 +3,8 @@
 
     nav button { display:none; }  /* hamburger button does not need to be shown */
 
+    nav ul li a {display: inline;}/*creates horizontal menu*/
+
     section.forecast { display: block; }  /* show the 10-day forecast with the medium view and up */
 
     article p.town-article img { width: 62.666%; float:right; }  /* responsive images */

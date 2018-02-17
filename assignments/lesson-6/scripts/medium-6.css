@@ -3,9 +3,22 @@
 
     nav button { display:none; }  /* hamburger button does not need to be shown */
 
-    nav {margin: auto; text-align: center}
+    nav li { display: inline; }    
+ 
+nav ul li a {
+    text-decoration: none;
+    color: #ffe168;
+    padding: .8rem 2%;
+    border-top: 1px solid rgba(0,0,0,.3);
 
-    nav ul li {display: inline; border-top: none; padding: 1%;}/*creates horizontal menu*/
+}
+nav ul li.active a {
+    color: #ffffff;
+    background-color: rgba(0,0,0,.4);
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,.3);
+}
 
     section.forecast { display: block; }  /* show the 10-day forecast with the medium view and up */
 

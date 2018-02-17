@@ -96,12 +96,10 @@ main figure img {
     position: relative;
 }
 
-.forecast h3{
-    /*display: none;*/
+section.forecast {
+    display: none;
 }
-.forecast table{
-    /*display: none;*/
-}
+
 table {
     border: 2px solid #8e99a2;
     padding: 1%;

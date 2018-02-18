@@ -121,6 +121,7 @@ article p.town-article img {  /* This structure refers to img elements that are 
     float: right;
     width: 100%;
     margin: 0;
+    padding: 1%;
 }
 
 footer {

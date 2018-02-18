@@ -2,6 +2,8 @@
 
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
 
+* {margin: 0;}
+
 body {
     font-size: 16px;
     font-family: Georgia, serif;
@@ -14,7 +16,7 @@ header, nav, main, footer { /* the comma means apply the following CSS declarati
     max-width: 100%;
     margin: .2rem 2%;
 }
-
+/*================ header ======================*/
 header {
     background-color: #8e99a2;
     padding: 1.6rem;
@@ -40,7 +42,30 @@ header .subheading {
     font-style: italic;
     color: #ffffff;
 }
+/*============= hamburger menu =================*/
+.hamburger{
+    display: block;
+    position: absolute;
+    top: 2.0rem;
+    right: 1.25rem;
+}
 
+.navigation {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation li {
+    display: none;
+}
+
+@media only screen and (max-width: 37.5em){
+    .navigation.responsive {position: relative;}
+    .navigation.responsive li {display: block; width: 100%; margin: 2px 0; border: 1 px solid #ddd;}
+    .navigation.responsive li a{padding: 1rem; text-align: center; display: block; text-decoration: none;}
+    .navigation.responsive li a: hover {background-color: #ddd;}
+}
+/*============== nav ====================*/
 nav {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
@@ -54,7 +79,6 @@ nav button {
     font-size: 1.6rem; /*makes it more clickable for a finger*/
 }
 nav ul {
-    margin: 0;
     padding: 0;
 }
 nav ul li {
@@ -82,10 +106,10 @@ main h2 {
     font-weight: 400;
     color: #8e99a2;
     text-align: center;
+    padding: 1%;
 }
 main figure {
     width: 100%;
-    margin:0;
 }
 
 main figure img {
@@ -103,6 +127,7 @@ section.forecast {
 table {
     border: 2px solid #8e99a2;
     padding: 1%;
+    margin: 1%;
     background-color: #d9d9d9;
 }
 
@@ -120,7 +145,6 @@ article p.town-article img {  /* This structure refers to img elements that are 
     /* fill the page in the small/phone view */
     float: right;
     width: 100%;
-    margin: 0;
     padding: 1%;
 }
 
@@ -134,7 +158,8 @@ footer {
     color: #ffffff;
 }
 footer aside {}
-footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+footer>p {
+} /* This structure refers to p elements that are direct children of the footer element */
 
 /* Other Class Selectors */
 .clearfix {

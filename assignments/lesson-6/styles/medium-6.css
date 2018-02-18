@@ -1,11 +1,15 @@
 @media only screen and (min-width: 37.5em) {
     /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
 
-    nav button { display:none; }  /* hamburger button does not need to be shown */
+    .hamburger { display:none; }  /* hamburger button does not need to be shown */
+
+    .navigation{ overflow: hidden; text-align: center;}
 
     nav ul{ padding: 0px; margin: 0px; text-align: center; }
 
-    nav ul li {display: inline; border-top: none; }/*creates horizontal menu*/
+    .navigation li {display: inline-block; border-top: none; }/*creates horizontal menu*/
+
+    .navigation a { display: block; padding-left: 1%;}
 
     section.forecast { display: block; }  /* show the 10-day forecast with the medium view and up */
 

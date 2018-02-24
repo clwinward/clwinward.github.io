@@ -32,7 +32,7 @@ header h1 {
 }
 
 header img {
-    float: left;
+    display: inline-flex;
     margin-top: -.2rem;
 }
 
@@ -44,7 +44,7 @@ header .subheading {
 }
 /*============= hamburger menu =================*/
 .hamburger{
-    display: block;
+    display: flex;
     position: absolute;
     top: 2.0rem;
     right: 1.25rem;
@@ -61,8 +61,8 @@ header .subheading {
 
 @media only screen and (max-width: 37.5em){
     .navigation.responsive {position: relative;}
-    .navigation.responsive li {display: block; width: 100%; margin: 2px 0; border: 1px solid #ddd;}
-    .navigation.responsive li a{padding: 1rem; text-align: center; display: block; text-decoration: none;}
+    .navigation.responsive li {display: flex; width: 100%; margin: 2px 0; border: 1px solid #ddd;}
+    .navigation.responsive li a{padding: 1rem; text-align: center; display: flex; text-decoration: none;}
     .navigation.responsive li a:hover {background-color: #ddd;}
 }
 /*============== nav ====================*/
@@ -83,7 +83,7 @@ nav ul {
 }
 nav ul li {
     list-style-type: none;
-    display: block;
+    display: flex;
     padding: .8rem 2%;
     border-top: 1px solid rgba(0,0,0,.3);
     text-align: center;
@@ -143,7 +143,7 @@ tr {
 
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
     /* fill the page in the small/phone view */
-    float: right;
+    display: inline-flex;
     width: 100%;
     padding: 1%;
 }
@@ -162,6 +162,4 @@ footer>p {
 } /* This structure refers to p elements that are direct children of the footer element */
 
 /* Other Class Selectors */
-.clearfix {
-    overflow: auto;
-}
+

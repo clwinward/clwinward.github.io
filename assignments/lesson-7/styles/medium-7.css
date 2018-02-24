@@ -13,6 +13,7 @@
 
     section.forecast { display: flex; }  /* show the 10-day forecast with the medium view and up */
 
-    article p.town-article img { width: 62.666%; display: inline-flex; }  /* responsive images */
+    article p.town-article img { width: 62.666%; display: flex; }  /* responsive images */
 
+    article { display: inline-flex; }
 }

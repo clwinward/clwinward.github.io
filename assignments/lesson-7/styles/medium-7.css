@@ -7,12 +7,12 @@
 
     nav ul{ padding: 0px; margin: 0px; text-align: center; }
 
-    .navigation li {display: inline-block; border-top: none; }/*creates horizontal menu*/
+    .navigation li {display: inline-flex; border-top: none; }/*creates horizontal menu*/
 
-    .navigation a { display: block; padding-left: 1%;}
+    .navigation a { display: flex; padding-left: 1%;}
 
-    section.forecast { display: block; }  /* show the 10-day forecast with the medium view and up */
+    section.forecast { display: flex; }  /* show the 10-day forecast with the medium view and up */
 
-    article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
+    article p.town-article img { width: 62.666%; display: inline-flex; }  /* responsive images */
 
 }

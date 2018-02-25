@@ -104,12 +104,20 @@ nav ul li a:hover {
 main img:hover{
     box-shadow: 5px 5px 10px gray;
 }
-main h2 {
+h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     color: #8e99a2;
     text-align: center;
     padding: 1%;
+}
+
+/*===================== grid =============================*/
+
+#grid{
+    display: grid;
+    padding: 0.5em;
+    grid-template-columns: 1fr;
 }
 
 /*===================== footer =============================*/

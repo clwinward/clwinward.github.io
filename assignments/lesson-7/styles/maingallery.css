@@ -118,6 +118,7 @@ h2 {
     display: grid;
     padding: 0.5em;
     grid-template-columns: 1fr;
+    grid-auto-columns: (auto, auto);
 }
 
 /*===================== footer =============================*/

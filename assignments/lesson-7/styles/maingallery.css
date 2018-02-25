@@ -111,17 +111,6 @@ main h2 {
     text-align: center;
     padding: 1%;
 }
-main figure {
-    width: 100%;
-}
-
-main figure img {
-    width: 100%;
-}
-
-.current img {
-    position: relative;
-}
 
 /*===================== footer =============================*/
 

@@ -3,8 +3,8 @@
 
     nav button { display:none; }  /* hamburger button does not need to be shown */
 
-    nav li { display: inline; }    
- 
+    nav li { display: inline-flex; }
+
 nav ul li a {
     text-decoration: none;
     color: #ffe168;
@@ -20,8 +20,8 @@ nav ul li a:hover {
     background-color: rgba(0,0,0,.3);
 }
 
-    section.forecast { display: block; }  /* show the 10-day forecast with the medium view and up */
+section.forecast { display: flex; }  /* show the 10-day forecast with the medium view and up */
 
-    article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
+article p.town-article img { width: 62.666%; display: flex; }  /* responsive images */
 
 }

@@ -1,0 +1,141 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    font-family: Georgia, serif;
+    max-width: 100%;
+    margin: .2rem 2%;
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    max-width: 100%;
+    margin: .2rem 2%;
+}
+
+header {
+    background-color: #8e99a2;
+    padding: 1.6rem;
+    margin-top: 30px;
+    text-align: left;
+}
+
+header h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    font-style: normal;
+}
+
+header img {
+    float: left;
+    margin-top: -.2rem;
+}
+
+header .subheading {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #ffffff;
+}
+
+nav {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem; /*makes it more clickable for a finger*/
+}
+nav ul {
+    margin: 0;
+    background-color: #ffe168;
+}
+nav ul li {
+    background-color: #8e99a2;
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffe168;
+    display: block;
+    padding: .8rem 2%;
+    border-top: 1px solid rgba(0,0,0,.3);
+
+}
+nav ul li.active a {
+    color: #ffffff;
+    background-color: rgba(0,0,0,.4);
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,.3);
+}
+
+main {}
+main h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #8e99a2;
+    text-align: center;
+}
+main figure {
+    width: 100%;
+    margin:0;
+}
+
+main figure img {
+    width: 100%;
+}
+
+.current img {
+    position: relative;
+}
+
+section.forecast {
+    display: none;
+}
+
+table {
+    border: 2px solid #8e99a2;
+    padding: 1%;
+    background-color: #d9d9d9;
+}
+
+th {
+    background-color: #8e99a2;
+    padding: 7px;
+    color: #ffffff;
+}
+
+tr {
+    text-align: center;
+}
+
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    /* fill the page in the small/phone view */
+    float: right;
+    width: 100%;
+    margin: 0;
+}
+
+footer {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    background-color: #8e99a2;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #ffffff;
+}
+footer aside {}
+footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
+.clearfix {
+    overflow: auto;
+}

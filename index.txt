@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
     <title>CIT 230 Assignment Portal | Christine W. Student | BYU-Idaho</title>
     <meta name="description" content="Assignment portal page for Christine, Student in CIT 230: Web Frontend Development at Brigham Young University-Idaho.">
@@ -18,7 +19,16 @@
     <main>
         <h2>CIT 230 - Assignment Portal</h2>
         <ul>
-            <li>Lesson ##: <a href="#">Assignment Label</a></li>
+            <li>Lesson 03: <a href="assignments/lesson-3/fixedhtml.html">HTML Markup Validation Assignment</a></li>
+            <li>Lesson 04: <a href="https://youtu.be/Y5fSE3OZfA8">Student Presentation: CSS Box Model</a></li>
+            <li>Lesson 04: <a href="assignments/lesson4/website-planning.pdf">Website Planning Document</a></li>
+            <li>Lesson 04: <a href="assignments/lesson4/franklin-4.html">Franklin City HTML Page</a></li>
+            <li>Lesson 05: <a href="assignments/lesson-5/franklin-5.html">Franklin City CSS Page</a></li>
+            <li>Lesson 06: <a href="assignments/lesson-6/franklin-6.html">Responsive Design</a></li>
+            <li>Lesson 07: <a href="assignments/lesson-7/franklin-7.html">Franklin Flex Box</a></li>
+            <li>Lesson 07: <a href="assignments/lesson-7/gallery-7.html">Gallery CSS Grid Design</a></li>
+            <li>Lesson 08: <a href="assignments/lesson-8/tablebuild.html">Table Build</a></li>
+            <li>Lesson 08: <a href="assignments/lesson-8/stormcenter.html">Storm Center</a></li>
         </ul>
     </main>
     <footer>

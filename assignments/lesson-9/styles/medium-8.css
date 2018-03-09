@@ -1,0 +1,28 @@
+@media only screen and (min-width: 37.5em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+
+    .hamburger { display:none; }  /* hamburger button does not need to be shown */
+
+    .navigation{ overflow: hidden; text-align: center;}
+
+    nav ul{ padding: 0px; margin: 0px; text-align: center; }
+
+    .navigation li {display: inline-flex; border-top: none; }/*creates horizontal menu*/
+
+    .navigation a { display: flex; padding-left: 1%;}
+
+
+
+    /*===================== grid =============================*/
+
+    #grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 1em;
+    }
+
+    #grid img{
+        width: 100%;
+    }
+}

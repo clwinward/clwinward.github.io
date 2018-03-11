@@ -11,18 +11,9 @@
 
     .navigation a { display: flex; padding-left: 1%;}
 
-
+    section.forecast { display: block; }
 
     /*===================== grid =============================*/
 
-    #grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 10px;
-        grid-row-gap: 1em;
-    }
-
-    #grid img{
-        width: 100%;
-    }
+    #grid{ display: grid; padding: 0.5em; grid-template-columns: 1fr 1fr; grid-auto-columns: (auto, auto); }
 }

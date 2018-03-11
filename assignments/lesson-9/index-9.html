@@ -28,7 +28,7 @@
         <nav>
             <ul class="navigation">
                 <li><a href="#">Home</a></li>
-                <li class="active"><a href="https://clwinward.github.io/assignments/lesson-7/franklin-7.html">Franklin</a></li>
+                <li><a href="https://clwinward.github.io/assignments/lesson-7/franklin-7.html">Franklin</a></li>
                 <li><a href="#">Greenville</a></li>
                 <li><a href="#">Springfield</a></li>
                 <li><a href="https://clwinward.github.io/assignments/lesson-8/stormcenter.html">Storm Center</a></li>
@@ -36,47 +36,53 @@
             </ul>
         </nav>
 
-        <main id="grid">
+        <main id="indexGrid">
             <article>
+                <div class="story">
                 <h2>Weather Story</h2>
                 <p>Lorem ipsum dolor sit amet, vix ea postea essent theophrastus, odio audire mediocrem ea nec, ne eum primis ocurreret consulatu. Cum id labitur fastidii, cu ubique vocibus eos, pro an liber iriure recusabo. Has ne docendi constituto. Usu detraxit gloriatur ne, eu nec cetero iriure adolescens. Et pri nullam latine, voluptua perfecto assentior mea ad. Elitr nemore interesset ea mei.</p>
-
-                <p>Ea qui etiam praesent mediocritatem, cum modo exerci repudiare at. Vix ex quot saepe pericula, vim aliquid vivendum consequuntur te, mel at lucilius atomorum. Ea his scaevola facilisi, ex possim voluptua est. Saepe tamquam ne sea.</p>
+                </div>
+                <figure class="story">
+                    <img src="images/lightening.jpeg" alt="lightening" srcset="images/lightening-sm.jpg 599w, images/lightening-med.jpg 1023w, images/lightening-lg.jpg 1280w">
+                </figure>
             </article>
 
             <article>
-                <div id="franklin">
+                <div class="franklin">
                     <h2>Franklin</h2>
-                    <p>Town stats</p>
-                    <p>Current Temperature: </p>
-                    <p>more information ...</p>
+                    <p>Motto: <span id="franklinMotto"></span></p>
+                    <p>Year Founded: <span id="franklinYear"></span></p>
+                    <p>Current Population: <span id="franklinPopulation"></span></p>
+                    <p>Average Rainfall: <span id="franklinRainfall"></span>inches</p>
                 </div>
-                <figure>
+                <figure class="franklin">
                     <img src="images/franklin-original.jpeg" alt="Franklin" srcset="images/franklin-sm-599.jpg 599w, images/franklin-med-1023.jpg 1023w, images/franklin-lg-1280.jpg 1280w">
                 </figure>
             </article>
 
             <article>
-                <div id="greenville">
+                <div class="greenville">
                     <h2>Greenville</h2>
-                    <p>Town stats</p>
-                    <p>Current Temperature: </p>
-                    <p>more information ...</p>
+                    <p>Motto: <span id="greenvilleMotto"></span></p>
+                    <p>Year Founded: <span id="greenvilleYear"></span></p>
+                    <p>Current Population: <span id="greenvillePopulation"></span></p>
+                    <p>Average Rainfall: <span id="greenvilleRainfall"></span>inches</p>
                 </div>
-                <figure>
-                    <img src="images/greenville-original.jpeg" alt="Greenville" srcset="images/greenville-sm-599.jpg 599w, images/greenville-med-1023.jpg 1023w, images/greenville-lg-1280.jpg 1280w">
+                <figure class="greenville">
+                    <img src="images/greenville-sm.jpeg" alt="Greenville" srcset="images/greenville-sm.jpg 599w, images/greenville-med.jpg 1023w, images/greenville-lg.jpg 1280w">
                 </figure>
             </article>
 
             <article>
-                <div id="springfield">
+                <div class="springfield">
                     <h2>Springfield</h2>
-                    <p>Town stats</p>
-                    <p>Current Temperature: </p>
-                    <p>more information ...</p>
+                    <p>Motto: <span id="springfieldMotto"></span></p>
+                    <p>Year Founded: <span id="springfieldYear"></span></p>
+                    <p>Current Population: <span id="springfieldPopulation"></span></p>
+                    <p>Average Rainfall: <span id="springfieldRainfall"></span>inches</p>
                 </div>
-                <figure>
-                    <img src="images/springfield-original.jpeg" alt="Springfield" srcset="images/springfield-sm-599.jpg 599w, images/springfield-med-1023.jpg 1023w, images/springfield-lg-1280.jpg 1280w">
+                <figure class="springfield">
+                    <img src="images/springfield-sm.jpeg" alt="Springfield" srcset="images/springfield-sm.jpg 599w, images/springfield-med.jpg 1023w, images/springfield-lg.jpg 1280w">
                 </figure>
             </article>
 
@@ -91,6 +97,8 @@
 
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/currentdate.js"></script>
+        <script src="scripts/wu-weather.js"></script>
+        <script src="scripts/getJson.js"></script>
 
     </body>
 </html>

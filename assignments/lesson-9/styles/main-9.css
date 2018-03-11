@@ -121,17 +121,19 @@ main figure img {
     position: relative;
 }
 
+/*===================== grid =============================*/
+
+#grid{ display: grid; padding: 0.5em; grid-template-columns: 1fr; grid-auto-columns: (auto, auto);}
+
 /*===================== windchill =============================*/
 
-section.forecast, div.forecast {margin: 1rem;}
+.form {background-color:#8e99a2; margin: 1rem; padding: 1rem; border:1px solid #444;}
 
-.form {background-color:#8e99a2; padding: 1rem; border:1px solid #444;}
+div.forecast {margin: 0; padding: 1rem; border:1px solid #444;}
 
-div.forecast {background-color:#d9d9d9; padding: 1rem; border:1px solid #444;}
+#avgT, #windS {border:1px solid #444; background-color:#d9d9d9; text-align:center;}
 
-#avgT, #windS {border:1px solid #444; background-color:#ffe168; text-align:center;}
-
-div.output {border:1px solid #444; background-color:#ffe168; text-align:center;}
+div.output {border:1px solid #444; background-color:#d9d9d9; text-align:center;}
 
 /*===================== forecast =============================*/
 

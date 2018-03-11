@@ -5,5 +5,11 @@
 
     #grid{ display: grid; padding: 0.5em; grid-template-columns: 1fr 1fr 1fr; grid-auto-columns: (auto, auto, auto); }
 
+    article.towns {display: inline-block; width: 33%; }
+
+    div.story {display: inline-block; float: left; width: 48%; margin: 0.5em;}
+
+    figure.story {display: inline-block; float: left; width: 48%; margin: 0.5em;}
+
 }
 

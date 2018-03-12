@@ -1,0 +1,36 @@
+@media only screen and (min-width: 37.5em) {
+    /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+
+    .clearfix { overflow: auto; }
+
+    .hamburger { display:none; }  /* hamburger button does not need to be shown */
+
+    .navigation{ overflow: hidden; text-align: center;}
+
+    nav ul{ padding: 0px; margin: 0px; text-align: center; }
+
+    .navigation li {display: inline-flex; border-top: none; }/*creates horizontal menu*/
+
+    .navigation a { display: flex; padding-left: 1%;}
+
+    section.forecast { display: block; }
+
+    div.story {display: inline-block; float: left; width: 45%; margin: 0.5em;}
+
+    figure.story {display: inline-block; float: left; width: 45%; margin: 0.5em; vertical-align: text-bottom;}
+
+    article.towns h2 { text-align: left; margin: 0.5em; }
+
+    div.franklin {display: inline-block; float: right; width: 45%; margin: 0.5em; height: 143px;}
+    figure.franklin { display: inline-block; float: left; width: 45%; vertical-align: text-bottom;}
+
+    div.greenville { display: inline-block; float: left; width: 45%; margin: 0.5em; height: 140px;}
+    figure.greenville { display: inline-block; float: right; width: 45%; margin: 0.5em; vertical-align: text-bottom;}
+
+    div.springfield { display: inline-block; float: right; width: 45%; margin: 0.5em; }
+    figure.springfield { display: inline-block; float: left; width: 45%; vertical-align: text-bottom;}
+
+    /*===================== grid =============================*/
+
+    #grid{ display: grid; padding: 0.5em; grid-template-columns: 1fr 1fr; grid-auto-columns: (auto, auto); }
+}

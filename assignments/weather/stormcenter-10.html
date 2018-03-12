@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Franklin City Weather</title>
+        <meta name="author" content="Christine Winward">
+        <meta name="description" content="weather information for the town of Franklin">
+        <!-- external style references in the proper cascading order -->
+        <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,900" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+        <link href="styles/mainstormcenter.css" rel="stylesheet">
+        <link href="styles/main-10.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+        <link href="styles/medium-10.css" rel="stylesheet">  <!-- medium/tablet views -->
+        <link href="styles/large-10.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+    </head>
+
+    <body>
+
+        <header>
+            <img src="images/smallweatherlogo125126.png" alt="The site logo">
+            <h1>Tri-City Weather</h1>
+            <div class="subheading">Helping Families know Weather ... it's fun!</div>
+            <button class="hamburger" onclick="toggleNavMenu()">&#9776;</button>
+        </header>
+
+        <!-- site navigation use placeholder references -->
+        <nav>
+            <ul class="navigation">
+                <li><a href="https://clwinward.github.io/assignments/weather/index-10.html">Home</a></li>
+                <li><a href="https://clwinward.github.io/assignments/weather/franklin-10.html">Franklin</a></li>
+                <li><a href="https://clwinward.github.io/assignments/weather/greenville-10.html">Greenville</a></li>
+                <li><a href="https://clwinward.github.io/assignments/weather/springfield-10.html">Springfield</a></li>
+                <li><a href="https://clwinward.github.io/assignments/weather/stormcenter.html">Storm Center</a></li>
+                <li><a href="https://clwinward.github.io/assignments/weather/gallery-10.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+<!-- Form -->
+
+        <form action="thanks.html" method="get" encrypt="multipart/form-data" name="Storm Center">
+            <fieldset>
+                <legend><span>Personal Information</span></legend>
+                <label><span>Full Name: </span><input name="fullname" type="text" pattern=[a-zA-Z .-_]{5} required></label>
+                <label><span>Email: </span><input name="email" type="email" placeholder="johndoe@gmail.com"></label>
+                <label><span>Phone Number: </span><input name="phonenum" type="tel" required></label>
+                <label><span>Zip Code: </span><input name="zip" type="number" required></label>
+            </fieldset>
+            <fieldset>
+                <legend><span>Storm Data</span></legend>
+                <label><span>Storm Date: </span><input name="stormdate" type="date"></label>
+                <label><span>Storm Type: </span><input name="stormtype" type="text" list="weather">
+                    <datalist id="weather">
+                        <option value="Flash Flood"></option>
+                        <option value="Hail"></option>
+                        <option value="Hurricane"></option>
+                        <option value="Thunderstorm"></option>
+                        <option value="Tornado"></option>
+                    </datalist></label>
+                <label><span>Storm Severity: </span><input type="range" name="severity" min="0" max="10"></label>
+                <input name="region" placeholder="Select Region ..." type="text" list="regions" id="gray">
+                    <datalist id="regions">
+                        <option value="Franklin"></option>
+                        <option value="Greenville"></option>
+                        <option value="Springfield"></option>
+                    </datalist>
+                <label><span>User in-danger? </span><input type="radio" name="danger" value="yes">Yes<br>
+                <input type="radio" name="danger" value="no">No<br>
+                <input type="radio" name="danger" value="maybe">Maybe<br></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <textarea name="comment" form="Storm Center">Comments: </textarea>
+            </fieldset>
+
+            <input type="submit" name="Submit" value="Submit" id="click">
+
+        </form>
+
+        <footer>
+            <aside>
+                1234 N. My St. Anywhere, USA
+            </aside>
+            <p class="footer-bar">&copy;2018 All Rights Reserved | TriCity Weather | <span id="currentdate"></span></p>
+        </footer>
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+
+    </body>
+</html>
+

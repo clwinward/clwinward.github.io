@@ -1,0 +1,182 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+* {margin: 0;}
+
+body {
+    font-size: 16px;
+    font-family: Georgia, serif;
+    max-width: 100%;
+    margin: .2rem 2%;
+}
+
+header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+    max-width: 100%;
+    margin: .2rem 2%;
+}
+/*================ header ======================*/
+header {
+    background-color: #8e99a2;
+    padding: 1.6rem;
+    margin-top: 30px;
+    text-align: left;
+}
+
+header h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    font-style: normal;
+}
+
+header img {
+    display: inline-flex;
+    margin-top: -.2rem;
+}
+
+header .subheading {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #ffffff;
+}
+/*============= hamburger menu =================*/
+.hamburger{
+    display: flex;
+    position: absolute;
+    top: 2.0rem;
+    right: 1.25rem;
+}
+
+.navigation {
+    list-style: none;
+    padding-left: 0;
+}
+
+.navigation li {
+    display: none;
+}
+
+@media only screen and (max-width: 37.5em){
+    .navigation.responsive {position: relative;}
+    .navigation.responsive li {display: flex; width: 100%; margin: 2px 0; border: 1px solid #ddd;}
+    .navigation.responsive li a{padding: 1rem; text-align: center; display: flex; text-decoration: none;}
+    .navigation.responsive li a:hover {background-color: #ddd;}
+}
+/*============== nav ====================*/
+nav {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    background-color: #8e99a2;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem; /*makes it more clickable for a finger*/
+}
+nav ul {
+    padding: 0;
+}
+nav ul li {
+    list-style-type: none;
+    display: flex;
+    padding: .8rem 2%;
+    border-top: 1px solid rgba(0,0,0,.3);
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffe168;
+}
+nav ul li.active a {
+    color: #ffffff;
+    background-color: rgba(0,0,0,.4);
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,.3);
+}
+/*===================== main =============================*/
+
+main {}
+main h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #8e99a2;
+    text-align: center;
+    padding: 1%;
+}
+main figure {
+    width: 100%;
+}
+
+main figure img {
+    width: 100%;
+}
+
+.current img {
+    position: relative;
+}
+
+/*===================== grid =============================*/
+
+#grid{ display: grid; padding: 0.5em; grid-template-columns: 1fr; grid-auto-columns: (auto, auto);}
+
+/*===================== windchill =============================*/
+
+.form {background-color:#8e99a2; margin: 1rem; padding: 1rem; border:1px solid #444;}
+
+div.forecast {margin: 0; padding: 1rem; border:1px solid #444;}
+
+#avgT, #windS {border:1px solid #444; background-color:#d9d9d9; text-align:center;}
+
+div.output {border:1px solid #444; background-color:#d9d9d9; text-align:center;}
+
+/*===================== forecast =============================*/
+
+section.forecast {
+    display: none;
+}
+
+table {
+    border: 2px solid #8e99a2;
+    padding: 1%;
+    margin: 1%;
+    background-color: #d9d9d9;
+}
+
+th {
+    background-color: #8e99a2;
+    padding: 7px;
+    color: #ffffff;
+}
+
+tr {
+    text-align: center;
+}
+
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    /* fill the page in the small/phone view */
+    display: flex;
+    width: 100%;
+    padding: 1%;
+}
+
+footer {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    background-color: #8e99a2;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #ffffff;
+}
+footer aside {}
+footer>p {
+} /* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
+

@@ -101,7 +101,13 @@ nav ul li a:hover {
 }
 /*===================== main =============================*/
 
-main {}
+.towns p {
+    font-weight: bold;
+}
+
+.towns p span {
+    font-weight: normal;
+}
 main h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
@@ -123,7 +129,7 @@ main figure img {
 
 /*===================== grid =============================*/
 
-#grid{ display: grid; padding: 0.5em; grid-template-columns: 1fr; grid-auto-columns: (auto, auto);}
+.grid{ display: grid; grid-template-columns: 1fr; grid-auto-columns: (auto); grid-column-gap: 20px; }
 
 /*===================== windchill =============================*/
 

@@ -114,7 +114,7 @@ h2 {
 
 /*===================== grid =============================*/
 
-#grid{
+.grid{
     display: grid;
     padding: 0.5em;
     grid-template-columns: 1fr;

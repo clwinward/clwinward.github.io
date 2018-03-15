@@ -10,4 +10,9 @@ request.onload = function() {
     document.getElementById('currentWind').innerHTML = franklinWeather.current_observation.wind_mph;
     document.getElementById('weatherIcon').src = franklinWeather.current_observation.icon_url;
     document.getElementById('currentForecast').innerHTML = franklinWeather.forecast.txt_forecast.forecastday[0].fcttext;
+
+    document.getElementById('10dayHigh').innerHTML = franklinWeather.forecast10day.forecastday.period[i].high.fahrenheight;
+    document.getElementById('10dayLow').innerHTML = franklinWeather.forecast10day.forecastday.period[i].low.fahrenheight;
+    document.getElementById('10dayConditions').innerHTML = franklinWeather.forecast10day.forecastday.period[i].conditions.fahrenheight;
+    document.getElementById('10dayIcon').innerHTML = franklinWeather.forecast10day.forecastday.period[i].icon.fahrenheight;
 }

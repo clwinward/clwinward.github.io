@@ -10,9 +10,9 @@
         <!-- external style references in the proper cascading order -->
         <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,900" rel="stylesheet">
         <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
-        <link href="styles/main-10.css" rel="stylesheet">    <!-- default styles - small/phone views -->
-        <link href="styles/medium-10.css" rel="stylesheet">  <!-- medium/tablet views -->
-        <link href="styles/large-10.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+        <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+        <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+        <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
     </head>
 
     <body>
@@ -27,12 +27,12 @@
         <!-- site navigation use placeholder references -->
         <nav>
             <ul class="navigation" id="mainmenu">
-                <li><a href="https://clwinward.github.io/assignments/weather/index-10.html">Home</a></li>
-                <li><a href="https://clwinward.github.io/assignments/weather/franklin-10.html">Franklin</a></li>
-                <li><a href="https://clwinward.github.io/assignments/weather/greenville-10.html">Greenville</a></li>
-                <li><a href="https://clwinward.github.io/assignments/weather/springfield-10.html">Springfield</a></li>
-                <li><a href="https://clwinward.github.io/assignments/weather/stormcenter-10.html">Storm Center</a></li>
-                <li><a href="https://clwinward.github.io/assignments/weather/gallery-10.html">Gallery</a></li>
+                <li><a href="https://clwinward.github.io/assignments/weather/index.html">Home</a></li>
+                <li><a href="https://clwinward.github.io/assignments/weather/franklin.html">Franklin</a></li>
+                <li><a href="https://clwinward.github.io/assignments/weather/greenville.html">Greenville</a></li>
+                <li><a href="https://clwinward.github.io/assignments/weather/springfield.html">Springfield</a></li>
+                <li><a href="https://clwinward.github.io/assignments/weather/stormcenter.html">Storm Center</a></li>
+                <li><a href="https://clwinward.github.io/assignments/weather/gallery.html">Gallery</a></li>
             </ul>
         </nav>
 
@@ -46,7 +46,7 @@
                     <img src="images/lightening.jpeg" alt="lightening" srcset="images/lightening-sm.jpg 599w, images/lightening-med.jpg 1023w, images/lightening-lg.jpg 1280w">
                 </figure>
             </article>
-            <div id="grid">
+            <div class="grid">
                 <article class="towns">
 
                     <div class="franklin">
@@ -55,11 +55,11 @@
                         <p>Year Founded: <span id="franklinYear"></span></p>
                         <p>Current Population: <span id="franklinPopulation"></span></p>
                         <p>Average Rainfall: <span id="franklinRainfall"></span> "</p>
-                    </div>
+
                     <figure class="franklin">
                         <img src="images/franklin-original.jpeg" alt="Franklin" srcset="images/franklin-sm-599.jpg 599w, images/franklin-med-1023.jpg 1023w, images/franklin-lg-1280.jpg 1280w">
                     </figure>
-
+                    </div>
                 </article>
 
                 <article class="towns">
@@ -70,10 +70,11 @@
                         <p>Year Founded: <span id="greenvilleYear"></span></p>
                         <p>Current Population: <span id="greenvillePopulation"></span></p>
                         <p>Average Rainfall: <span id="greenvilleRainfall"></span> "</p>
-                    </div>
+
                     <figure class="greenville">
                         <img src="images/greenville-sm.jpeg" alt="Greenville" srcset="images/greenville-sm.jpg 599w, images/greenville-med.jpg 1023w, images/greenville-lg.jpg 1280w">
                     </figure>
+                    </div>
                 </article>
 
                 <article class="towns">
@@ -84,10 +85,11 @@
                         <p>Year Founded: <span id="springfieldYear"></span></p>
                         <p>Current Population: <span id="springfieldPopulation"></span></p>
                         <p>Average Rainfall: <span id="springfieldRainfall"></span> "</p>
-                    </div>
+
                     <figure class="springfield" >
                         <img src="images/springfield-sm.jpeg" alt="Springfield" srcset="images/springfield-sm.jpg 599w, images/springfield-med.jpg 1023w, images/springfield-lg.jpg 1280w">
                     </figure>
+                    </div>
                 </article>
             </div>
         </main>

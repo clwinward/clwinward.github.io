@@ -129,7 +129,7 @@ main figure img {
 
 /*===================== grid =============================*/
 
-.grid{ display: grid; grid-template-columns: 1fr; grid-auto-columns: (auto); grid-column-gap: 20px; }
+#grid{ display: grid; grid-template-columns: 1fr; grid-auto-columns: (auto); grid-column-gap: 20px; }
 
 /*===================== windchill =============================*/
 

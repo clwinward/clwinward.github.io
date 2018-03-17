@@ -11,7 +11,7 @@
 
     /*===================== grid =============================*/
 
-    .grid{ display: grid; grid-template-columns: 1fr 1fr 1fr; grid-auto-columns: (auto, auto, auto); grid-column-gap: 20px; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-auto-columns: (auto, auto, auto); grid-column-gap: 20px; }
 
     main.grid img:hover { box-shadow: 5px 5px 10px gray; }
 

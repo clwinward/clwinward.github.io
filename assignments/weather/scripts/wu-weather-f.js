@@ -20,3 +20,47 @@ requestForecast.onload = function() {
     console.log(franklinForecast);
     document.getElementById('currentForecast').innerHTML = franklinForecast.forecast.txt_forecast.forecastday[0].fcttext;
 }
+function get10dayForecast(jsonObj){
+    var franklin10dayForecast = jsonObj['forecast.simpleforecast.forecastday[0]'];
+
+        for (var i=0 ; i < 10 ; i++){
+            var myForecast = document.createElement('td');
+
+            myForecast.textContent = franklin10dayForecast[i].high.fahrenheit + ' &deg;F' + franklin10dayForecast[i].low.fahrenheit + ' &deg;F';
+        }
+}
+
+
+/*function showHeroes(jsonObj){
+    var heroes = jsonObj['members'];
+
+    for(var i=0; i < heroes.length; i++){
+        var myArticle = document.createElement('article');
+        var myH2 = document.createElement('h2');
+        var myPara1 = document.createElement('p');
+        var myPara2 = document.createElement('p');
+        var myPara3 = document.createElement('p');
+        var myList = document.createElement('ul');
+
+        myH2.textContent = heroes[i].name;
+        myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
+        myPara2.textContent = 'Age: ' + heroes[i].age;
+        myPara3.textContent = 'Superpowers:';
+
+        var superPowers = heroes[i].powers;
+        for (var j = 0; j < superPowers.length; j++) {
+            var listItem = document.createElement('li');
+            listItem.textContent = superPowers[j];
+            myList.appendChild(listItem);
+        }
+
+        myArticle.appendChild(myH2);
+        myArticle.appendChild(myPara1);
+        myArticle.appendChild(myPara2);
+        myArticle.appendChild(myPara3);
+        myArticle.appendChild(myList);
+
+        section.appendChild(myArticle);
+    }
+}
+*/

@@ -108,7 +108,7 @@ nav ul li a:hover {
 .towns p span {
     font-weight: normal;
 }
-main h2 {
+h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     color: #8e99a2;
@@ -130,6 +130,10 @@ main figure img {
 /*===================== grid =============================*/
 
 #grid{ display: grid; grid-template-columns: 1fr; grid-auto-columns: (auto); grid-column-gap: 20px; }
+
+#grid main div {
+    position: relative;
+}
 
 /*===================== windchill =============================*/
 

@@ -7,6 +7,6 @@
 
     main#grid img:hover { box-shadow: 5px 5px 10px gray; }
 
-
+    .navigation a.active { background-color: #ffe168; color: gray;}
 
 }

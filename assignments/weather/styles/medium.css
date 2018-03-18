@@ -17,5 +17,11 @@
 
     /*===================== grid =============================*/
 
-    #grid{ display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 20px;}
+    #grid{ display: grid; grid-template-columns: 1fr 1fr; grid-gap: 20px;}
+
+    figure.lightning { width: 50%; float: right; margin: 1em;}
+
+
+
+
 }

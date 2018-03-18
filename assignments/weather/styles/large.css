@@ -1,18 +1,12 @@
 @media only screen and (min-width: 64em) {
 /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
 
-    .story p {
-        float: left;
-    }
-
-    .story figure {
-        float: left;
-    }
-
     /*===================== grid =============================*/
 
     #grid { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px; }
 
     main#grid img:hover { box-shadow: 5px 5px 10px gray; }
+
+
 
 }

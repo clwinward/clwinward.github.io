@@ -101,16 +101,29 @@ nav ul li a:hover {
 }
 /*===================== main =============================*/
 
-main {}
-main h2 {
+.towns p {
+    font-weight: bold;
+}
+
+.towns p span {
+    font-weight: normal;
+}
+
+.towns {
+    border: 3px solid #8e99a2;
+    background-color: #d9d9d9;
+    padding: 5px;
+    margin: 10px;
+}
+h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     color: #8e99a2;
     text-align: center;
     padding: 1%;
 }
-main figure {
-    width: 100%;
+main article.story {
+    display: grid; grid-template-columns: 1fr; grid-auto-columns: (auto); grid-gap: 20px;
 }
 
 main figure img {
@@ -123,7 +136,11 @@ main figure img {
 
 /*===================== grid =============================*/
 
-#grid{ display: grid; padding: 0.5em; grid-template-columns: 1fr; grid-auto-columns: (auto, auto);}
+#grid{ display: grid; grid-template-columns: 1fr; grid-column-gap: 20px; }
+
+#grid main div {
+    position: relative;
+}
 
 /*===================== windchill =============================*/
 

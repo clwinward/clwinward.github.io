@@ -31,6 +31,7 @@
             <li>Lesson 08: <a href="assignments/lesson-8/stormcenter.html">Storm Center</a></li>
             <li>Lesson 09: <a href="assignments/lesson-9/heroes.html">Super Hero Squad</a></li>
             <li>Lesson 09: <a href="assignments/lesson-9/index-9.html">Consuming Data from JSON Sources</a></li>
+            <li>Lesson 10: <a href="assignments/weather/index.html">Complete Weather Site</a></li>
         </ul>
     </main>
     <footer>

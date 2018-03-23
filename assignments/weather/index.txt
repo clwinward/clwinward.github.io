@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tri City Weather</title>
+        <meta name="author" content="Christine Winward">
+        <meta name="description" content="Tri City weather information">
+        <!-- external style references in the proper cascading order -->
+        <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,900" rel="stylesheet">
+        <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+        <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+        <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+        <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+    </head>
+
+    <body>
+
+        <header>
+            <img src="images/smallweatherlogo125126.png" alt="The site logo">
+            <h1>Tri-City Weather</h1>
+            <div class="subheading">Helping Families know Weather ... it's fun!</div>
+            <button class="hamburger" onclick="toggleNavMenu()">&#9776;</button>
+        </header>
+
+        <!-- site navigation use placeholder references -->
+        <nav>
+            <ul class="navigation" id="mainmenu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./franklin.html">Franklin</a></li>
+                <li><a href="./greenville.html">Greenville</a></li>
+                <li><a href="./springfield.html">Springfield</a></li>
+                <li><a href="./stormcenter.html">Storm Center</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+
+            <article class="story">
+                <div>
+                    <h2>Why Don’t You See Lightning Rods On Homes?</h2>
+
+                    <div>
+                        <figure class="lightning">
+                            <img src="images/lightening.jpeg" alt="lightening" srcset="images/lightening-sm.jpg 599w, images/lightening-med.jpg 1023w, images/lightening-lg.jpg 1280w" sizes="(max-width: 599px) 599px, (max-width: 1023px) 1023px, (max-width: 1280px) 1280px">
+                        </figure>
+                    </div>
+
+                    <p>It’s the suspected culprit in fires that torched a Minneapolis church, a $1 million home in Hudson, Wis., and several other metro homes over the weekend — 30 million volts of electricity shooting through the sky.
+                        Such a dramatic situation, it provoked dozens of viewers to email asking: Why don’t we see lightning rods on homes anymore?
+
+                        “They’re hard to see,” said Doug Franklin, president of Thompson Lightning Protection in St. Paul.
+
+                        <p>Franklin said his company probably installs on about 100 homes in the Twin Cities every year, largely new construction. But the rods aren’t the 4-feet tall monsters of old.
+
+                            “We’ve stepped on our own toes, because the appearance isn’t there, people don’t notice them,” Franklin said.</p>
+
+                        <p>Today’s lightning systems are made up of tiny, 10-inch rods, which are spread out every 20 feet. Thick gauge cable connects the rods, sending the lightning bolt straight to the ground.
+
+                        What if you just had one or two big lightning rods?
+
+                        “It’d be a waste of money,” Franklin said. “It would probably hit somewhere else.”
+
+                        On average, Minnesota has 40 thunderstorm days a year: 40 days when lightning could hit your home.
+                        Compare that to California, which has about 5 thunderstorm days a year, and Florida, which has 100 days.</p>
+
+                        <p>The Insurance Federation of Minnesota reports the number of claims paid for lightning damage to homes was up 15 percent from 2009 to 2010. Insurers in Minnesota paid on about 4,000 lighting claims in 2010, a total of $20.7 million.
+
+                        “High objects, edges, ridges, corners, those are the places on buildings that get hit,” Franklin said.
+
+                        The business of lightning protection is largely focused on big-dollar commercial building jobs. Every skyscraper in both downtowns has rods, and according to Franklin, they all get hit every year.
+
+                        “Right now residential is 15-20 percent of our business, max,” he said. “The rest is schools, hospitals, churches.”
+
+                        A simple rambler with 4 lightning rods might start at around $2,500, a bigger system with more chimneys and more corners could run closer to $4,000-$5,000, and even higher, he said.</p>
+
+                        <p>Is it worth it?
+
+                        “It depends on how much peace of mind you want during storms,” Franklin said.
+
+                        If homes in your area have been hit before, he said you could be at risk.
+
+                        “Those are warning shots – means you’re in a vulnerable area,” Franklin said.
+
+                        If your home is at the top of a hill, or the tallest among shorter homes on a block, or surrounded by a wide-open swath of land, you are also at a higher risk, he said.</p>
+                </div>
+
+            </article>
+            <div id="grid">
+                <article class="towns">
+
+                    <div class="franklin">
+                        <h2>Franklin</h2>
+                        <p>Motto: <span id="franklinMotto"></span></p>
+                        <p>Year Founded: <span id="franklinYear"></span></p>
+                        <p>Current Population: <span id="franklinPopulation"></span></p>
+                        <p>Average Rainfall: <span id="franklinRainfall"></span> "</p>
+
+                    <figure class="franklin">
+                        <img src="images/franklin-original.jpeg" alt="Franklin" srcset="images/franklin-sm-599.jpg 599w, images/franklin-med-1023.jpg 1023w, images/franklin-lg-1280.jpg 1280w" sizes="(max-width: 599px) 599px, (max-width: 1023px) 1023px, (max-width: 1280px) 1280px">
+                    </figure>
+                    </div>
+                </article>
+
+                <article class="towns">
+
+                    <div class="greenville">
+                        <h2>Greenville</h2>
+                        <p>Motto: <span id="greenvilleMotto"></span></p>
+                        <p>Year Founded: <span id="greenvilleYear"></span></p>
+                        <p>Current Population: <span id="greenvillePopulation"></span></p>
+                        <p>Average Rainfall: <span id="greenvilleRainfall"></span> "</p>
+
+                    <figure class="greenville">
+                        <img src="images/greenville-sm.jpeg" alt="Greenville" srcset="images/greenville-sm.jpg 599w, images/greenville-med.jpg 1023w, images/greenville-lg.jpg 1280w" sizes="(max-width: 599px) 599px, (max-width: 1023px) 1023px, (max-width: 1280px) 1280px">
+                    </figure>
+                    </div>
+                </article>
+
+                <article class="towns">
+
+                    <div class="springfield">
+                        <h2>Springfield</h2>
+                        <p>Motto: <span id="springfieldMotto"></span></p>
+                        <p>Year Founded: <span id="springfieldYear"></span></p>
+                        <p>Current Population: <span id="springfieldPopulation"></span></p>
+                        <p>Average Rainfall: <span id="springfieldRainfall"></span> "</p>
+
+                    <figure class="springfield" >
+                        <img src="images/springfield-sm.jpeg" alt="Springfield" srcset="images/springfield-sm.jpg 599w, images/springfield-med.jpg 1023w, images/springfield-lg.jpg 1280w" sizes="(max-width: 599px) 599px, (max-width: 1023px) 1023px, (max-width: 1280px) 1280px">
+                    </figure>
+                    </div>
+                </article>
+            </div>
+        </main>
+
+        <footer class="clearfix">
+            <p>1234 N. My St. Anywhere, USA | 1-800-WEATHER</p>
+            <p class="footer-bar">&copy;2018 Christine Winward | <a href="#">Terms & Conditions</a> | <span id="currentdate"></span></p>
+        </footer>
+
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/wu-weather.js"></script>
+        <script src="scripts/getJson.js"></script>
+        <script src="scripts/activatingCurrentMenu.js"></script>
+
+    </body>
+</html>

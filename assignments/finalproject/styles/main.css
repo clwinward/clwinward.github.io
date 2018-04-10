@@ -117,6 +117,10 @@ nav li:hover {
     background-color: #009696; /* teal */
 }
 /*===================== main =============================*/
+h1 {
+    padding: 2%;
+}
+
 #homeImg {
     border-top: 5px solid #f3a843; /* yellow */
     margin: 0px;
@@ -174,9 +178,15 @@ a figcaption {
     margin: auto;
 }
 
-/* Hide the images by default */
+
 .mySlides {
-    display: none;
+    display: none; /* Hide the images by default */
+    padding: 2em;
+}
+
+.text {
+
+
 }
 
 /* Next & previous buttons */

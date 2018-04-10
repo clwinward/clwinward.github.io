@@ -1,0 +1,42 @@
+{
+
+    "bikes": [
+        {
+            "name": "Schwinn Men's Protocol 2.7 Mountain Bike, 27.5&Prime; Wheels, 17&Prime; Frame Size",
+            "color": "Matte Blue",
+            "price": "$339.99",
+            "features": [
+                "Schwinn aluminum dual suspension frame and powerful Schwinn suspension fork soak up bumps and thumps to provide you a durable riding experience",
+                "21-Speed Shimano EZ-Fire trigger shifters and a Shimano rear derailleur make gear changes easy and smooth",
+                "Front and rear mechanical disc brakes provide crisp all-condition stopping out on the trail",
+                "High profile double wall alloy rims are light and strong for added durability; 2.25 inch wide knobby mountain tires are ready for bumpy terrain",
+                "Durable Schwinn alloy cranks provide steady gearing and less pesky maintenance on your end"
+            ]
+        },
+        {
+            "name": "Diamondback Bicycles Overdrive Hardtail Mountain Bike with 27.5&Prime; Wheels, 20&Prime; Frame Size",
+            "color": "Red",
+            "price": "$449.99",
+            "features": [
+                "Hand built 6061-T6 aluminum alloy hardtail frame is Classic mountain biking",
+                "Custom formed and butted tubing combines lightweight and stiffness",
+                "27.5 inch wheels roll well over obstacles and offer Quick handling",
+                "SR Sun tour XCT fork delivers 80mm of suspension travel",
+                "3 gears in the front and 8 gear in the back give you a combined 24 speeds to choose from"
+            ]
+        },
+        {
+            "name": "Raleigh Bikes Tokul 1 Mountain Bike, 19&Prime; Frame Size",
+            "color": "Green and Blue",
+            "price": "$466.91",
+            "features": [
+                "Designed for rooty, rocky, mountain trail riding",
+                "Made with lightweight AL-6061 SL custom butted aluminum frame and SR Sun tour XCM, 120mm travel fork for comfort on the bumps",
+                "Features easy to operate Shimano EZ-Fire shifters and Tektro hydraulic disc brakes for the ultimate stopping power in all weather conditions",
+                "Includes weinmann U28, 27.5 inch , 32H, 28mm wide rims and wide Kenda Honey badger 27.5 x 2.2 tires for stability"
+            ]
+        }
+    ]
+}
+
+

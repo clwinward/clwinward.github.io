@@ -1,0 +1,48 @@
+/*Style details:
+The font-family is Ubuntu, sans-serif.
+Color scheme includes #e7f0ed, #e7ffed (data rows) and #628ca6, #7fb9c2 with white and black.
+You may find the first-child and nth:child() pseudo classes helpful in CSS.*/
+
+*{ font-family: Ubuntu, sans-serif;}
+
+table {
+    border-spacing: 0px;
+    border: 1px solid #bbbbbb;
+    box-shadow: 10px 10px 10px #628ca6;
+}
+
+tr:nth-child(even) {
+    background-color: #e7f0ed;
+}
+table tr:nth-child(odd) {
+    background-color:#e7ffed;
+}
+thead th, tfoot td {
+    background-color: #7fb9c2;
+    color: #000000;
+    border: 1px solid #bbbbbb;
+}
+tbody th {
+    background-color: #628ca6;
+    color: white;
+}
+
+tbody th, td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #bbbbbb;
+}
+
+tbody #dk {
+    background-color: #628ca6;
+    color: white;
+}
+
+thead th {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+tfoot {
+    font-size: .75em;
+}

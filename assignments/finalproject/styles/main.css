@@ -191,18 +191,15 @@ a:visited {
 
 .mySlides {
     display: none; /* Hide the images by default */
-    padding: 2em;
-}
-
-.text {
-
+    width: 100%;
+    margin: auto;
 }
 
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 60%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -224,14 +221,26 @@ a:visited {
     background-color: rgba(0,0,0,0.8);
 }
 
+/* Price */
+.price {
+    background-color: rgb(243,168,67); /* yellow */
+    padding: 1em;
+    display: flex;
+    position: absolute;
+    top: -4.25em;
+    right: 2%;
+    color: #1b3043; /* dk blue */
+}
+
 /* Caption text */
-.text {
+.name {
+    display: flex;
     color: #000000; /* black */
     font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
+    padding: 1em;
+    position: relative;
+    width: 80%;
+    margin: auto;
     text-align: center;
 }
 
@@ -244,6 +253,7 @@ a:visited {
     background-color: #5d7991; /* lt blue */
     border-radius: 50%;
     display: inline-block;
+    text-align: center;
     transition: background-color 0.6s ease;
 }
 

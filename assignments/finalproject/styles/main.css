@@ -50,6 +50,25 @@ header img { /* logo */
     font-size: .8em;
 }
 
+.bold {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cost {
+    font-family: 'Pacifico', cursive;
+    color: #a9bd38; /* green */
+}
+
+.listHead {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 900;
+    background-color: #1b3043; /* dk blue */
+    padding: .2em;
+    color: #f3a843; /* yellow */
+}
+
 #dkblue{
     background-color: #1b3043; /* dk blue */
     height: 100px;

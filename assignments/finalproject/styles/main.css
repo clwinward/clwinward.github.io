@@ -154,10 +154,20 @@ button { /* register now */
 button:hover {
     background-color: #009696; /* teal */
     color: #f3a843; /* yellow */
+    opacity: 1.0;
 }
 
-a figcaption {
+a:link {
     text-decoration: none;
+    color: #ffffff; /* white */
+}
+
+a:hover {
+    color: #009696; /* teal */
+    opacity: 0.5;
+}
+
+a:visited {
     color: #ffffff; /* white */
 }
 

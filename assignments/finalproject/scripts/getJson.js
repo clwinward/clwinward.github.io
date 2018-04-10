@@ -29,7 +29,21 @@ request.onload = function() {
     document.getElementById('redPrice').innerHTML = bikedata.bikes[1].price;
 
     document.getElementById('blueFeatures1').innerHTML = bikedata.bikes[0].features[0];
+    document.getElementById('blueFeatures1').innerHTML = bikedata.bikes[0].features[1];
+    document.getElementById('blueFeatures1').innerHTML = bikedata.bikes[0].features[2];
+    document.getElementById('blueFeatures1').innerHTML = bikedata.bikes[0].features[3];
+    document.getElementById('blueFeatures1').innerHTML = bikedata.bikes[0].features[4];
+
     document.getElementById('bluegreenFeatures1').innerHTML = bikedata.bikes[2].features[0];
+    document.getElementById('bluegreenFeatures1').innerHTML = bikedata.bikes[2].features[1];
+    document.getElementById('bluegreenFeatures1').innerHTML = bikedata.bikes[2].features[2];
+    document.getElementById('bluegreenFeatures1').innerHTML = bikedata.bikes[2].features[3];
+    document.getElementById('bluegreenFeatures1').innerHTML = bikedata.bikes[2].features[4];
+
     document.getElementById('redFeatures1').innerHTML = bikedata.bikes[1].features[0];
+    document.getElementById('redFeatures1').innerHTML = bikedata.bikes[1].features[1];
+    document.getElementById('redFeatures1').innerHTML = bikedata.bikes[1].features[2];
+    document.getElementById('redFeatures1').innerHTML = bikedata.bikes[1].features[3];
+    document.getElementById('redFeatures1').innerHTML = bikedata.bikes[1].features[4];
 }
 

@@ -249,7 +249,7 @@ a:visited {
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin: auto;
     background-color: #5d7991; /* lt blue */
     border-radius: 50%;
     display: inline-block;

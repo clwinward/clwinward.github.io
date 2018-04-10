@@ -1,5 +1,5 @@
-function load() {
-    var bikedata = JSON.parse(bikes);
+/*request.onload function() {
+    var bikedata = JSON.parse(data/bikeInfo.json);
 
     document.getElementById('blueName').innerHTML = bikedata[0].name;
 
@@ -9,5 +9,5 @@ function load() {
 
     document.getElementById('redName').innerHTML = bikedata[2].name;
 
-}
+}*/
 

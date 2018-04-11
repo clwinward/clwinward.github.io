@@ -1,4 +1,4 @@
-var requestURL = 'https://clwinward.github.io/assignments/finalproject/data/bikeInfo.json';
+var requestURL = 'https://clwinward.github.io/assignments/finalproject/data/tours.json';
 
 var request = new XMLHttpRequest();
 request.open('GET', requestURL, true);
@@ -6,8 +6,8 @@ request.open('GET', requestURL, true);
 request.send();
 
 request.onload = function() {
-var bikedata = JSON.parse(request.responseText);
-document.getElementById('blueName').innerHTML = bikedata.bikes[0].name;
+var tourdata = JSON.parse(request.responseText);
+document.getElementById('blueName').innerHTML = tourdata.tours[0].name;
 document.getElementById('bluegreenName').innerHTML = bikedata.bikes[2].name;
 document.getElementById('redName').innerHTML = bikedata.bikes[1].name;
 

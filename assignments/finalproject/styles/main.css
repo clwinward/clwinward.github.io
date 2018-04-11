@@ -126,12 +126,6 @@ h1, h2, p {
     padding: 2%;
 }
 
-#homeImg {
-    border-top: 5px solid #f3a843; /* yellow */
-    margin: 0px;
-    padding: 0px;
-}
-
 #homeImg figcaption {
     background-color: #a9bd38; /* green */
 }
@@ -258,7 +252,6 @@ figcaption span.listHead {
 
 /* Price */
 .price {
-    background-color: rgb(243,168,67); /* yellow */
     padding: 1em;
     display: flex;
     position: absolute;

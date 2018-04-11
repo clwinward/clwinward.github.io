@@ -4,14 +4,14 @@
         "name": "Deep Drivetrain Clean/Tune",
         "cost": "$60 to $100",
         "includes": [
-            "remove and reinstall all items cleaned"
-            "cleaning chain",
-            "cleaning cassette",
-            "cleaning crankset",
-            "cleaning derailleurs",
-            "tuning the shifting"
+            "clean chain",
+            "clean cassette",
+            "clean crankset",
+            "clean derailleurs",
+            "tune the shifting"
         ]
-
+    },
+    {
         "name": "Suspension Overhaul",
         "cost": "$75 to $175 for fork or rear shock/each",
         "includes": [
@@ -20,7 +20,8 @@
             "reinstall with new clean oil",
             "check for wear on bushings and seals"
         ]
-
+    },
+    {
         "name": "Bottom Bracket Overhaul",
         "cost": "$30 to $60",
         "includes": [
@@ -30,26 +31,26 @@
             "reinstall the entire setup",
             "inspect for bearing wear and creaks"
         ]
-
+    },
+    {
         "name": "True Wheels",
-        "cost": "$20 to $30/wheel"
-        "included": [
-            "Each wheel gets put in the truing stand",
-            "Spoke tension is tuned for true (side-to-side wobbles)",
-            "Tune round (vertical hops)",
-            "Tune dish (alignment of the rim on the hub so it’s in the center of the bike frame)",
-            "Stressed spokes or spoke nipples get replaced, which may cost extra"
+        "cost": "$20 to $30/wheel",
+        "includes": [
+            "each wheel gets put in the truing stand",
+            "spoke tension is tuned for true (side-to-side wobbles)",
+            "tune round (vertical hops)",
+            "tune dish (alignment of the rim on the hub so it’s in the center of the bike frame)",
+            "stressed spokes or spoke nipples get replaced, which may cost extra"
         ]
-
+    },
+    {
         "name": "Bleed Disc Brakes",
         "cost": "$20 to $40 per brake",
         "includes": [
-            "Front and rear hydraulic brakes are flushed with fresh brake fluid",
-            "Pistons are cleaned",
-            "Pads inspected for wear and replaced if necessary (extra cost for new pads)"
+            "front and rear hydraulic brakes are flushed with fresh brake fluid",
+            "pistons are cleaned",
+            "pads inspected for wear and replaced if necessary (extra cost for new pads)"
         ]
-    },
+    }]
+}
 
-disclaimer:
-
--->

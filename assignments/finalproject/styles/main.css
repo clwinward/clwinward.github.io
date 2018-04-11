@@ -122,8 +122,18 @@ nav li:hover {
     background-color: #009696; /* teal */
 }
 /*===================== main =============================*/
-h1, h2, p {
+h1, h2, h3, h4, h5, h6, p {
     padding: 2%;
+}
+
+span.listHead {
+    background-color: #1b3043; /* dk blue */
+    padding: .25rem;
+    color: #f3a843; /* yellow */
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 900;
 }
 
 #homeImg figcaption {
@@ -181,6 +191,7 @@ main img {
 
 figcaption {
     background-color: #1b3043; /* dk blue */
+    color: #f3a843; /* yellow */
     width: 100%;
     padding: .2em;
     margin: 0 auto 10px auto;
@@ -192,7 +203,7 @@ figcaption span.listHead {
     color: #f3a843; /* yellow */
     text-transform: uppercase;
     font-size: 1.2em;
-    font-weight: 900;
+    font-weight: 700;
 }
 
  figcaption span.cost {
@@ -295,20 +306,45 @@ figcaption span.listHead {
 /*===================== table =============================*/
 
 table {
-    border: 2px solid #8e99a2;
-    padding: 1%;
-    margin: 1%;
-    background-color: #d9d9d9;
+    border-spacing: 0px;
+    border: 1px solid #1b3043; /* dk blue */
+    box-shadow: 10px 10px 10px #1b3043; /* dk blue */
 }
 
-th {
-    background-color: #8e99a2;
-    padding: 7px;
-    color: #ffffff;
+tr:nth-child(even) {
+    background-color: #ffffff; /* white */
+}
+table tr:nth-child(odd) {
+    background-color: #5d7991; /* lt blue */
+}
+thead th, tfoot td {
+    background-color: #009696; /* teal */
+    color: #ffffff; /* white */
+    border: 1px solid #1b3043; /* dk blue */
+}
+tbody th {
+    background-color: #354557; /* med blue */
+    color: #f3a843; /* yellow */
 }
 
-tr {
+tbody th, td {
     text-align: center;
+    padding: 10px;
+    border: 1px solid #1b3043; /* dk blue */
+}
+
+tbody #dk {
+    background-color: #354557; /* med blue */
+    color: #ffffff; /* white */
+}
+
+thead th {
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+tfoot {
+    font-size: .75em;
 }
 
 /*============= footer ==================*/

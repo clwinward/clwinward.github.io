@@ -43,11 +43,62 @@
     <div id="green"></div>
 
     <main>
-        <h1>Service</h1>
+        <h1>Services</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Recommended Maintenance Services</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Includes</th>
+                </tr>
+                <tr>
+                    <td><span id="repair1Name"></span></td>
+                    <td><span id="repair1Price"></span></td>
+                    <td>
+                        <ul>
+                            <li><span id="repair1includes1"></span></li>
+                            <li><span id="repair1includes2"></span></li>
+                            <li><span id="repair1includes3"></span></li>
+                            <li><span id="repair1includes4"></span></li>
+                            <li><span id="repair1includes5"></span></li>
+                            <li><span id="repair1includes6"></span></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>September</td>
+                    <td>$4,420</td>
+                    <td>$5,000</td>
+                </tr>
+                <tr>
+                    <td>October</td>
+                    <td>$4,870</td>
+                    <td>$5,000</td>
+                </tr>
+                <tr>
+                    <td>November</td>
+                    <td>$8,610</td>
+                    <td id="dk">$7,500</td>
+                </tr>
+                <tr>
+                    <td id="black">Black Friday</td>
+                    <td colspan="2">$3,200</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">*Labor based on an hourly rate of $60/hr*</td>
+                </tr>
+            </tfoot>
+        </table>
 
         <h2>5 Essential Bike Shop Repairs</h2>
-
-        <h4><span class="subheading">*Labor based on an hourly rate [$60/hour].</span></h4>
 
         <img src="images/1deepDriveClean.jpg" alt="bike drive" sizes=100vw srcset="images/1deepDriveClean-sm.jpg 320w">
         <figcaption><span class=listHead>Deep Drivetrain Clean/Tune</span><br><span class="cost">Cost: $60 to $100</span></figcaption>
@@ -92,8 +143,8 @@
 
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
-    <script src="scripts/getJsonTours.js"></script>
-    <script src="scripts/tours.json"></script>
+    <script src="scripts/getJsonServices.js"></script>
+    <script src="scripts/repairs.json"></script>
     <script src="scripts/activatingCurrentMenu.js"></script>
 
 </body>

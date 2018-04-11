@@ -1,11 +1,80 @@
-<a href="https://www.amazon.com/Schwinn-Protocol-Mountain-Wheels-Frame/dp/B06XXJVLK4/ref=sr_1_39?s=outdoor-recreation&ie=UTF8&qid=1522384573&sr=1-39&keywords=mountain+bikes">Blue Bike from Amazon</a>
+<!doctype html>
+<html lang="en-us">
 
-<a href="https://www.amazon.com/Diamondback-Bicycles-Overdrive-Hardtail-Mountain/dp/B01HG3PD7I/ref=sr_1_5?s=outdoor-recreation&ie=UTF8&qid=1522385222&sr=1-5&keywords=mountain+bikes">Red Bike from Amazon</a>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mountain Spoke | Resources</title>
+        <meta name="author" content="Christine Winward">
+        <meta name="description" content="Mountain Spoke full bike service, sales and tours">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:Extra+Light|Pacifico" rel="stylesheet">   <!-- fonts -->
+        <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+        <link href="styles/main.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+        <link href="styles/medium.css" rel="stylesheet">  <!-- medium/tablet views -->
+        <link href="styles/large.css" rel="stylesheet">   <!-- large/wide/desktop views -->
+    </head>
 
-<a href="https://www.amazon.com/Raleigh-Bikes-Tokul-Mountain-X-Large/dp/B01MSQUJ2J/ref=sr_1_34?s=sporting-goods&ie=UTF8&qid=1522386034&sr=1-34&keywords=mountain+bike">Green/Blue Bike from Amazon</a>
+    <body>
 
-<a href="https://www.bicycling.com/repair/maintenance/5-essential-bike-shop-repairs/">5 Essential Bike Shop Repairs Article</a>
+        <header id="dkblue">
+            <figure id="logo">
+                <img src="images/MountainSpokeLogoRound-sm.png" alt="The site logo">
+            </figure>
 
-<a href="http://themountain.boydlake.com/adventures/adventures.php">Cycle the Continental Divide Information</a>
+            <div class="company">
+                <h1>Mountain Spoke</h1>
+            </div>
 
-<a href="https://www.bozemannet.com/summer_recreation/biking.php#content">Bike Tours Information</a>
+            <button class="hamburger" onclick="toggleNavMenu()">&#9776;</button>
+        </header>
+
+        <!-- site navigation -->
+        <nav id="wheels">
+            <ul class="navigation" id="mainmenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="sales.html">Sales</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="green"></div>
+
+        <main>
+            <h1>Resources</h1>
+                <ul>
+                    <li><a href="https://www.amazon.com/Schwinn-Protocol-Mountain-Wheels-Frame/dp/B06XXJVLK4/ref=sr_1_39?s=outdoor-recreation&ie=UTF8&qid=1522384573&sr=1-39&keywords=mountain+bikes">Blue Bike from Amazon</a></li>
+                    <li><a href="https://www.amazon.com/Diamondback-Bicycles-Overdrive-Hardtail-Mountain/dp/B01HG3PD7I/ref=sr_1_5?s=outdoor-recreation&ie=UTF8&qid=1522385222&sr=1-5&keywords=mountain+bikes">Red Bike from Amazon</a></li>
+
+                    <li><a href="https://www.amazon.com/Raleigh-Bikes-Tokul-Mountain-X-Large/dp/B01MSQUJ2J/ref=sr_1_34?s=sporting-goods&ie=UTF8&qid=1522386034&sr=1-34&keywords=mountain+bike">Green/Blue Bike from Amazon</a></li>
+
+                    <li><a href="https://www.bicycling.com/repair/maintenance/5-essential-bike-shop-repairs/">5 Essential Bike Shop Repairs Article</a></li>
+
+                    <li><a href="http://themountain.boydlake.com/adventures/adventures.php">Cycle the Continental Divide Information</a></li>
+
+                    <li><a href="https://www.bozemannet.com/summer_recreation/biking.php#content">Bike Tours Information</a></li>
+                </ul>
+
+        </main>
+
+        <footer>
+            <p>3950 Valley Commons Drive Bozeman, MT | 1-800-MTN-BIKE</p>
+            <p class="footer-bar">&copy;2018 Christine Winward | <a href="resources.html">Resource References</a> | <span id="currentdate"></span></p>
+        </footer>
+
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/getJsonTours.js"></script>
+        <script src="scripts/tours.json"></script>
+        <script src="scripts/activatingCurrentMenu.js"></script>
+
+    </body>
+</html>
+
+
+
+
+
+

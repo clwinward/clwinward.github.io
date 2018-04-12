@@ -53,53 +53,24 @@
             <li>Location: Banff, Alberta CA to Antelope Wells NM</li>
             <li>Trail Type: 100% single track mountain bike trail</li>
             <li>Distance: 2768 miles; 1 Month</li>
+            <li>Skill Level: Advanced</li>
             <li>Cost: $525.00/person</li>
         </ul>
-<!--
 
-
-<fieldset>
-<legend><span>Storm Data</span></legend>
-<label><span>Storm Date: </span><input name="stormdate" type="date"></label>
-<label><span>Storm Type: </span><input name="stormtype" type="text" list="weather">
-<datalist id="weather">
-<option value="Flash Flood"></option>
-<option value="Hail"></option>
-<option value="Hurricane"></option>
-<option value="Thunderstorm"></option>
-<option value="Tornado"></option>
-</datalist></label>
-<label><span>Storm Severity: </span><input type="range" name="severity" min="0" max="10"><span></span></label>
-<input name="region" placeholder="Select Region ..." type="text" list="regions" id="gray">
-<datalist id="regions">
-<option value="Franklin"></option>
-<option value="Greenville"></option>
-<option value="Springfield"></option>
-</datalist>
-<label><span>User in-danger? </span><input type="radio" name="danger" value="yes">Yes<br>
-<input type="radio" name="danger" value="no">No<br>
-<input type="radio" name="danger" value="maybe">Maybe<br></label>
-</fieldset>
-
-<fieldset>
-<legend>Additional Information</legend>
-<textarea name="comment" form="Storm Center">Comments: </textarea>
-</fieldset>
-
-<input type="submit" name="Submit" value="Submit" id="click">
-
-</form>
--->
         <form action="" method="get" encrypt="multipart/form-data" name="Register">
             <fieldset>
                 <legend>Personal Information</legend>
                     <label><span>Full Name: </span><input name="fullname" type="text" pattern=[a-zA-Z .-_]{5} required></label>
                     <label><span>Email: </span><input name="email" type="email" placeholder="johndoe@gmail.com"></label>
-                    <label><span>Phone Number: </span><input name="phonenum" type="tel" required></label>
-                    <label><span>Zip Code: </span><input name="zip" type="number" required></label>
+                    <label><span>Phone Number: </span><input name="phonenum" type="tel" placeholder="xxx-xxx-xxxx" required></label>
+                    <label><span>Date of Birth: </span><input name="dob" type="date" required></label>
+                    <label><span>Home State/Country: </span><input name="home" required></label>
             </fieldset>
+            <fieldset>
+                <legend>Special Accomodations</legend>
+                <textarea name="comment" form="Register" rows="8" placeholder="Additional questions, needed accomodations or comments: "></textarea>
             </fieldset>
-
+            <input type="submit" name="Submit" value="Register" id="click">
         </form>
 
     </main>

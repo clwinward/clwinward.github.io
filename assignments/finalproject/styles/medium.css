@@ -3,17 +3,25 @@
 
     .clearfix { overflow: auto; }
 
-    .hamburger { display:none; }  /* hamburger button does not need to be shown */
-
     .navigation{ overflow: hidden; text-align: center;}
 
-    nav ul{ padding: 0px; margin: 0px; text-align: center; }
-
-    .navigation li {display: inline-flex; border-top: none; }/*creates horizontal menu*/
-
-    .navigation a { display: flex; padding-left: 1%;}
 
     /* ================= figures ==========================*/
+
+    header img { /* logo */
+        padding-right: 1em;
+        display: inline-flex;
+        position: absolute;
+        top: 1.85em;
+        left: 3em;
+    }
+
+    .company {
+        display: flex;
+        position: absolute;
+        color: #ffffff; /* white */
+        left: 100px;
+    }
 
     .slideshow-container {
         max-width: 1023px;

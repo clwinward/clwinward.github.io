@@ -1,6 +1,12 @@
 @media only screen and (min-width: 64em) {
 /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
 
+    nav ul{ padding: 0px; margin: 0px; text-align: center; }
+
+    .navigation li {display: inline-flex; border-top: none; }/*creates horizontal menu*/
+
+    .navigation a { display: flex; padding: 1%;}
+
     /*===================== grid =============================*/
 
     #grid { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px; }

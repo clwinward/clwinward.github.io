@@ -264,7 +264,7 @@ article figcaption {
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 210px;
+    top: 0px;
     width: auto;
     padding: 16px;
     color: #009696; /* teal */

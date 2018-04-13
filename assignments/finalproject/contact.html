@@ -45,9 +45,25 @@
         <main>
             <h1>Contact</h1>
 
-            <h3>Mountain Spoke</h3>
-            <h5>3950 Valley Commons Drive Bozeman, MT</h5>
-            <div id="map"></div>
+            <div class="column1">
+                <form action="" method="get" encrypt="multipart/form-data" name="contact">
+                    <fieldset>
+                        <legend>Contact Us</legend>
+                        <label><span>Name: </span><input name="fullname" type="text" pattern=[a-zA-Z .-_]{5} placeholder="John Doe" required></label>
+                        <label><span>Email: </span><input name="email" type="email" placeholder="johndoe@gmail.com"></label><br>Message:
+                        <label><textarea name="comment" form="contact" rows="8" placeholder="Please type message here ... "></textarea></label>
+                    </fieldset>
+                    <input type="submit" name="Submit" value="Send" id="click">
+                </form>
+            </div>
+
+            <div class="column2">
+                <h3>Mountain Spoke</h3>
+                <h5>1-800-MTN-BIKE</h5>
+                <h5>3950 Valley Commons Drive Bozeman, MT</h5>
+                <div id="map"></div>
+            </div>
+
 
         </main>
 

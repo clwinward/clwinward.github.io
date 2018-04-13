@@ -1,18 +1,60 @@
 @media only screen and (min-width: 64em) {
 /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
 
-    nav ul{ padding: 0px; margin: 0px; text-align: center; }
+    .hamburger {
+        display: none;
+    }
+
+    nav ul{ padding: 10px; margin: 0px; text-align: center; }
 
     .navigation li {display: inline-flex; border-top: none; }/*creates horizontal menu*/
 
-    .navigation a { display: flex; padding: 1%;}
+    .navigation a { display: flex; padding-left: 20px; padding-right: 20px;}
 
     /*===================== grid =============================*/
 
-    #grid { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px; }
+    #grid {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        margin: 0px;
+        padding: 0px;
+    }
 
-    main#grid img:hover { box-shadow: 5px 5px 10px gray; }
 
-    .navigation a.active { background-color: #ffe168; color: gray;}
+    /*==================== header =============================*/
+    #ltblue {
+        background-color: #5d7991; /* lt blue */
+        height: 130px;
+        margin: 0px;
+    }
 
+    #yellow {
+        background-color: #f3a843; /* yellow */
+        height: 10px;
+    }
+
+    #dkblue {
+        height: 15px;
+    }
+
+    #logo img { /* logo */
+
+        position: relative;
+        top: -128px;
+    }
+
+
+    /*======================== main ===========================*/
+
+.pageName {
+    display: none;
 }
+    .company {
+        display: none;
+    }
+
+    /*======================== footer ===========================*/
+
+    footer p {
+        padding: .3em;
+    }

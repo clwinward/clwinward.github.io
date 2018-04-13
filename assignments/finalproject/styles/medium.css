@@ -1,9 +1,13 @@
 @media only screen and (min-width: 37.5em) {
     /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
 
-    .clearfix { overflow: auto; }
+    @media only screen and (min-width: 37.5em){
+        .navigation.responsive {position: relative;}
+        .navigation.responsive li {display: flex; width: 100%; margin: 2px 0; border: 1px solid #ddd;}
+        .navigation.responsive li a{padding: 1rem; text-align: center; display: flex; text-decoration: none;}
+        .navigation.responsive li a:hover {background-color: #ddd;}
+    }
 
-    .navigation{ overflow: hidden; text-align: center;}
 
 
     /* ================= figures ==========================*/
@@ -17,12 +21,21 @@
     }
 
     .company {
-        display: flex;
+        display: inline-flex;
         position: absolute;
         color: #ffffff; /* white */
         left: 100px;
+        top: 10px;
     }
 
+    .hamburger {
+        top: 1em;
+    }
+
+    #homeImg {
+        position: relative;
+        width: 100%;
+    }
     .slideshow-container {
         max-width: 1023px;
     }
@@ -39,10 +52,5 @@
 
     /*===================== grid =============================*/
 
-    #grid{ display: grid; grid-template-columns: 75% 25%; grid-gap: 20px;}
+    #grid{ display: grid; grid-template-columns: 75% 25%; grid-gap: none;}
 
-
-
-
-
-}

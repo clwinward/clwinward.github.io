@@ -30,13 +30,14 @@ header img { /* logo */
     padding-top: 2%;
     display: inline-flex;
     float: left;
-    max-width: 73%;
+    max-height: 100px;
 }
 
 .company {
     display: flex;
     position: absolute;
     color: #ffffff; /* white */
+    top: 50%;
     left: 75px;
 }
 
@@ -305,7 +306,7 @@ div.col1 {
     padding: 1em;
     display: flex;
     position: absolute;
-    top: -4.25em;
+    top: -8%;
     right: 2%;
     color: #1b3043; /* dk blue */
 }

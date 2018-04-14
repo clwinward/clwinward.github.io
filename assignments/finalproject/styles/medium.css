@@ -14,9 +14,7 @@
     header img { /* logo */
         padding-right: 1em;
         display: inline-flex;
-        position: absolute;
-        top: 1.85em;
-        left: 3em;
+        float: left;
     }
 
     .company {
@@ -38,7 +36,7 @@
 
 
     .slideshow-container {
-        max-width: 1023px;
+        max-width: 248px;
     }
 
     .price {
@@ -68,16 +66,6 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    div.col2 {
-        background-color: #5d7991; /* lt blue */
-        padding: 2%;
-        margin: 0;
-    }
-
-    div.col1 {
-        background-color: #354557; /* med blue */
-        padding: 2%;
-    }
     article.col1, article.col3 {
         background-color: #5d7991; /* lt blue */
         padding: 2%;

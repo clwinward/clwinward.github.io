@@ -46,35 +46,42 @@
     <div id="green"></div>
 
     <main>
-        <h1>Events</h1>
+        <h1 class="pageName">Events</h1>
 
-        <figure>
-            <img src="images/divide.jpg" alt="mountain bikers on continental divide trail" sizes=100vw srcset="images/divide320.jpg 320w">
-        </figure>
-        <figcaption><h4>Cycle the Continental Divide<br>Oct. 8, 2018</h4></figcaption>
-        <ul>
-            <li>Location: Banff, Alberta CA to Antelope Wells NM</li>
-            <li>Trail Type: 100% single track mountain bike trail</li>
-            <li>Distance: 2768 miles; 1 Month</li>
-            <li>Skill Level: Advanced</li>
-            <li>Cost: $525.00/person</li>
-        </ul>
+        <div class="grid2">
+            <div class="col1">
+                <figure>
+                    <img src="images/divide.jpg" alt="mountain bikers on continental divide trail" sizes=100vw srcset="images/divide320.jpg 320w, images/divide599.jpg 599w">
+                </figure>
+                <figcaption><h4>Cycle the Continental Divide<br>Oct. 8, 2018</h4></figcaption>
+                <ul>
+                    <li>Location: Banff, Alberta CA to Antelope Wells NM</li>
+                    <li>Trail Type: 100% single track mountain bike trail</li>
+                    <li>Distance: 2768 miles; 1 Month</li>
+                    <li>Skill Level: Advanced</li>
+                    <li>Cost: $525.00/person</li>
+                </ul>
+            </div>
 
-        <form action="" method="get" encrypt="multipart/form-data" name="Register">
-            <fieldset>
-                <legend>Personal Information</legend>
-                    <label><span>Full Name: </span><input name="fullname" type="text" pattern=[a-zA-Z .-_]{5} required></label>
-                    <label><span>Email: </span><input name="email" type="email" placeholder="johndoe@gmail.com"></label>
-                    <label><span>Phone Number: </span><input name="phonenum" type="tel" placeholder="xxx-xxx-xxxx" required></label>
-                    <label><span>Date of Birth: </span><input name="dob" type="date" required></label>
-                    <label><span>Home State/Country: </span><input name="home" required></label>
-            </fieldset>
-            <fieldset>
-                <legend>Special Accomodations</legend>
-                <textarea name="comment" form="Register" rows="8" placeholder="Additional questions, needed accomodations or comments: "></textarea>
-            </fieldset>
-            <input type="submit" name="Submit" value="Register" id="click">
-        </form>
+
+            <div class="col2">
+                <form action="" method="get" encrypt="multipart/form-data" name="Register">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                            <label><span>Full Name: </span><input name="fullname" type="text" pattern=[a-zA-Z .-_]{5} required></label>
+                            <label><span>Email: </span><input name="email" type="email" placeholder="johndoe@gmail.com"></label>
+                            <label><span>Phone Number: </span><input name="phonenum" type="tel" placeholder="xxx-xxx-xxxx" required></label>
+                            <label><span>Date of Birth: </span><input name="dob" type="date" required></label>
+                            <label><span>Home State/Country: </span><input name="home" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Special Accomodations</legend>
+                        <textarea name="comment" form="Register" rows="8" placeholder="Additional questions, needed accomodations or comments: "></textarea>
+                    </fieldset>
+                    <input type="submit" name="Submit" value="Register" id="click">
+                </form>
+            </div>
+        </div>
 
     </main>
 

@@ -26,11 +26,11 @@ header{
 }
 
 header img { /* logo */
-    padding-right: 1em;
+    padding-left: 0.5%;
+    padding-top: 2%;
     display: inline-flex;
-    position: absolute;
-    top: 1.75rem;
-    left: 1.75rem;
+    float: left;
+    max-width: 73%;
 }
 
 .company {
@@ -247,11 +247,21 @@ article figcaption {
     position: relative;
 }
 
+div.col2 {
+    background-color: #5d7991; /* lt blue */
+    padding: 2%;
+    margin: 0;
+}
+
+div.col1 {
+    background-color: #354557; /* med blue */
+    padding: 2%;
+}
+
 /*====================== slideshow ===============================*/
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 599px;
     position: relative;
     margin: auto;
 }
@@ -259,15 +269,17 @@ article figcaption {
 
 .mySlides {
     display: none; /* Hide the images by default */
-    width: 100%;
     margin: auto;
+    max-width: 248px;
 }
 
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 0px;
+    margin: auto;
+    top: 50%;
+
     width: auto;
     padding: 16px;
     color: #009696; /* teal */

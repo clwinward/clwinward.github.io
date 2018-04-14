@@ -103,6 +103,8 @@ header img { /* logo */
 /*============== nav ====================*/
 nav {
     background-color: #1b3043; /* dk blue */
+    border-bottom: 2px solid #f3a843; /* yellow */
+    z-index: 1;
 }
 
 nav li {
@@ -156,17 +158,13 @@ span.listHead {
     line-height: 1.75em;
 }
 /*================= aside ================================*/
-aside {
-    margin: 0;
-    padding: 2% 0 4% 0;
-}
 
 aside {
     background-color: #354557; /* med blue */
-    padding: .25em;
+    margin: 0;
+    padding: .5em;
     text-align: center;
-    border-top: 3px solid #f3a843; /* yellow */
-    border-bottom: 6px solid #a9bd38; /* green */
+    z-index: 4;
     position: relative;
 }
 

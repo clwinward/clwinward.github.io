@@ -3,9 +3,8 @@
 
     @media only screen and (min-width: 37.5em){
         .navigation.responsive {position: relative;}
-        .navigation.responsive li {display: flex; width: 100%; margin: 2px 0; border: 1px solid #ddd;}
+        .navigation.responsive li {display: flex; width: 100%; margin: 2px 0; }
         .navigation.responsive li a{padding: 1rem; text-align: center; display: flex; text-decoration: none;}
-        .navigation.responsive li a:hover {background-color: #ddd;}
     }
 
 
@@ -35,6 +34,15 @@
     #homeImg {
         position: relative;
         width: 100%;
+    }
+
+    .grid3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 10px;
+        grid-auto-rows:
+        margin: 0px;
+        padding: 0px;
     }
     .slideshow-container {
         max-width: 1023px;

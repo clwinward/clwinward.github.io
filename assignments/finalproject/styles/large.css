@@ -11,6 +11,8 @@
 
     .navigation a { display: flex; padding-left: 20px; padding-right: 20px;}
 
+    .navigation a:hover { color: #009696; /* teal */ background-color: #1b3043; /* dk blue */ }
+
     /*===================== grid =============================*/
 
     #grid {
@@ -46,12 +48,36 @@
 
     /*======================== main ===========================*/
 
-.pageName {
-    display: none;
-}
+    .pageName {
+        display: none;
+    }
     .company {
         display: none;
     }
+    .subheading {
+        color: #1b3043; /* dk blue */
+        font-family: 'Pacifico', script;
+        text-align: center;
+        padding: .25em;
+        margin: 0px;
+        line-height: 1.5em;
+        font-size: 1em;
+    }
+    #homeImg figcaption {
+        background-color: #a9bd38; /* green */
+    }
+
+    .greenBackground { /* under tours */
+        background-color: #a9bd38; /* green */
+        color: #1b3043; /* dk blue */
+        font-family: 'Pacifico', cursive;
+        padding: .25em;
+        margin: 0px;
+        line-height: auto;
+        text-align: center;
+        font-size: 1.25em;
+    }
+
 
     /*======================== footer ===========================*/
 
